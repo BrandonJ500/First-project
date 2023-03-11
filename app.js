@@ -206,6 +206,7 @@ form.addEventListener('submit', (e) => {
     //selects all lists with the id of #list
     const allLi = document.querySelectorAll('li');
 
+    //when green button is clicked it turns the list of items green
     green.addEventListener('click', () => {
         for (let l of allLi) {
             l.style.color = 'green';
