@@ -1,0 +1,19 @@
+.textCenter {
+    text-align: center;
+    margin: auto;
+
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.ulClass {
+    display: inline-block;
+    text-align: left;
+}
+
+li:hover {
+    color: red !important;
+    border: 1px solid black ;
+}
